@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+:root {
+  --masterColor:rgb(18, 18, 130);
+}
+
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+}
+
+.container {
+  padding: 10px;
+  border-color: var(--masterColor);
+}
+
+.btn {
+  background-color: var(--masterColor);
+  color: white;
+  border: none;
+  width: 110px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.textarea {
+  width: 350px;
+  height: 50px;
+  font-family: 'PT Serif', serif;
+  color: var(--masterColor);
+  font-weight: bold;
+  font-size: medium;
+  border: solid;
+}
+
+ul {
+  list-style: none;
+  color: var(--masterColor);
+}
+
+a {
+  color: var(--masterColor);
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.css.map */
